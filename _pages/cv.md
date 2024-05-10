@@ -11,35 +11,45 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD in Applied Mathematics, DAMTP, University of Cambridge, 2021-2025
+* MMath and BA, University of Cambridge, 2017-2021
+* (incomplete) BEng(CompSc), University of Hong Kong, 2015-2017
+<!-- * B.S. in GitHub, GitHub University, 2012 -->
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023 Jul-Aug: Research Exchange
+  * University of California, Los Angeles (UCLA)
+  * New numerical methods for sampling. See [this paper](https://arxiv.org/abs/2308.14945).
+  * Supervisors: Prof. Stanley J. Osher, Prof. Wuchen Li
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2022 Jan-Jun: External Research Assistant
+  * Schlumberger
+  * Numerical method to separate mixed signals with greedy fitting.
+  * Supervisor: Dr. Can Evren Yarman
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021 Aug-Oct: Summer Intern
+  * Faraday Predictive
+  * Signal spectral abnormality detection in the low-data regime using clustering techniques.
+  * Supervisors: Geoff Walker, Andrew Bates
+
+* 2021 Jul-Aug: Summer Intern
+  * Applied Cryptosystems Department, ASTRI
+  * Testing federated machine learning frameworks for secure distributed learning.
+  * Supervisor: Dr. Kam Hong Shum
+
+* 2020 Jul-Sep: Summer Research Assistant
+  * DAMTP, University of Cambridge
+  * Researching methods to predict glioblastoma subtypes using MRI and histology.
+  * Supervisor: Dr. Chao Li
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Main: Python, PyTorch
+  * Probably OK: JAX, MATLAB
+  * Very rusty: C, C++, Java, Haskell
+* Languages: English, Mandarin Chinese, Cantonese
 
 Publications
 ======
@@ -53,12 +63,12 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
+Others
 ======
 * Currently signed in to 43 different slack teams
