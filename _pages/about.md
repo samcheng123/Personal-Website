@@ -13,8 +13,12 @@ What do I work on?
 ======
 Mostly applied and computational mathematics, with a current focus on convex optimization, machine learning, and inverse problems (specifically computational imaging). Working and applying results between different fields is particularly interesting to me, combining theoretical guarantees with practical applications. Other fields I find interesting: iterative methods, PDEs, numerical and nonlinear analysis, and differential geometry. I am looking to branch into optimal transport in the future. 
 
+Some keywords in no particular order: learning-to-optimize, variational regularization, accelerated optimization, structure-preserving neural networks, plug-and-play, Langevin MCMC, Wasserstein flow.
+
+I also do all the coding and 98% of the writing for my first-author papers. Feel free to use the code from any of my work, and do send me an email if you have any questions, as the codebases online are quite dirty due to scattered computational resources.
+
 Other tidbits
-======
+------
 * I was the youngest member admitted to the University of Hong Kong in 2015 (aged 11). I am also probably the youngest member (aged 13) admitted to Cambridge in recent history, but I have not verified this. The title of youngest Senior Wrangler however still belongs to [Arran Fernandez](https://en.wikipedia.org/wiki/Arran_Fernandez).
-* Common misspellings of my name in ascending order of egregiousness: Hong, Hong Yi, Hong Yee, Ye Hong, Hong Tan, Ye Tan, Hing Ye (???). Hongye is marginally OK, but I prefer a space and proper capitalisation.
-* I also like [classical piano](https://www.youtube.com/watch?v=ievpSwyvxoE), badminton, and birds. 
+* Common misspellings of my name in ascending order of egregiousness: Hong, Hong Yi, Hong Yee, Ye Hong, Hong Tan, Ye Tan, Hing Ye (???). Hongye is marginally OK, but I prefer a space and proper capitalization.
+* I also like [classical piano](https://www.youtube.com/watch?v=ievpSwyvxoE), badminton, and birds. I have also dabbled in fencing and small-bore rifle shooting.
