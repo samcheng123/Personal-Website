@@ -85,7 +85,10 @@ for row, item in publications.iterrows():
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
-    
+
+    if len(str(item.arxiv)) > 5:
+        md += "\narxiv: '" + item.arxiv + "'"
+
     md += "\ncitation: '" + html_escape(item.citation) + "'"
     
     md += "\n---"
@@ -93,12 +96,16 @@ for row, item in publications.iterrows():
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
-        
+        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>" 
+    
+    if len(str(item.arxiv)) > 5:
+        md += " (<a href='" + item.arxiv + "'>arXiv</a>)\n" 
+    else:
+        md += "\n"
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + item.citation
+    # md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
        
