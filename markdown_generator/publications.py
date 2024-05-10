@@ -103,11 +103,11 @@ for row, item in publications.iterrows():
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a> " 
+        md += "\n[Download paper here](" + item.paper_url + ") "
     else:
         md += "\n\n"
     if len(str(item.arxiv)) > 5:
-        md += "(<a href='" + item.arxiv + "'>arXiv</a>)\n" 
+        md += "([arXiv](" + item.arxiv + "))" 
     else:
         md += "\n"
     if len(str(item.excerpt)) > 5:
