@@ -89,7 +89,12 @@ for row, item in publications.iterrows():
         if item.published:
             md += "\nvenue: '" + html_escape(item.venue) + "'"
         elif item.venue:
+            md += "\nvenue: "
             md += "\nsubmitted: '" + html_escape(item.venue) + "'"
+    else:
+        md += "\nvenue: "
+        md += "\nsubmitted: "
+        
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
 
