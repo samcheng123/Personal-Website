@@ -52,7 +52,11 @@ html_escape_table = {
 
 def html_escape(text):
     """Produce entities within text."""
-    return "".join(html_escape_table.get(c,c) for c in text)
+    # print(text)
+    if text == "": 
+        return "" 
+    else: 
+        return "".join(html_escape_table.get(c,c) for c in text)
 
 
 # ## Creating the markdown files
@@ -81,25 +85,29 @@ for row, item in publications.iterrows():
     
     md += "\ndate: " + str(item.pub_date) 
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
-    
+    if len(str(item.venue)) > 3:
+        if item.published:
+            md += "\nvenue: '" + html_escape(item.venue) + "'"
+        elif item.venue:
+            md += "\nsubmitted: '" + html_escape(item.venue) + "'"
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
 
     if len(str(item.arxiv)) > 5:
         md += "\narxiv: '" + item.arxiv + "'"
 
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    # md += "\ncitation: '" + html_escape(item.citation) + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>" 
-    
+        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a> " 
+    else:
+        md += "\n\n"
     if len(str(item.arxiv)) > 5:
-        md += " (<a href='" + item.arxiv + "'>arXiv</a>)\n" 
+        md += "(<a href='" + item.arxiv + "'>arXiv</a>)\n" 
     else:
         md += "\n"
     if len(str(item.excerpt)) > 5:
