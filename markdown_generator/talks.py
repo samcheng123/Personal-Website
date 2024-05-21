@@ -89,8 +89,8 @@ for row, item in talks.iterrows():
     if len(str(item.location)) > 3:
         md += 'location: "' + str(item.location) + '"\n'
            
-    if len(str(item.url)) > 3:
-        md += 'url: "' + str(item.url) + '"\n' 
+    if len(str(item.link)) > 3:
+        md += 'link: "' + str(item.link) + '"\n' 
     md += "---\n"
     
 
