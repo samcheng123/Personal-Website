@@ -1,5 +1,6 @@
-title	type	url_slug	venue	date	location	talk_url	description
-Talk 1 on Relevant Topic in Your Field	Talk	talk-1	UC San Francisco, Department of Testing	2012-03-01	San Francisco, California		This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
-Tutorial 1 on Relevant Topic in Your Field	Tutorial	tutorial-1	UC-Berkeley Institute for Testing Science	2013-03-01	Berkeley CA, USA	http://exampleurl.com	This is a description of your tutorial, note the different field in type. This is a markdown files that can be all markdown-ified like any other post. Yay markdown!
-Talk 2 on Relevant Topic in Your Field	Talk	talk-2	London School of Testing	2014-02-01	London, UK	http://example2.com	This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
-Conference Proceeding talk 3 on Relevant Topic in Your Field	Conference proceedings talk	talk-3	Testing Institute of America 2014 Annual Conference	2014-03-01	Los Angeles, CA		This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+title	type	url_slug	venue	date	location	talk_url	description						
+Data-driven Optimization via Mirror Descent	Department Seminar	talk-ox23	Oxford-CUHK Joint Seminar Series	2023-10-17	"Oxford, UK (Online)"		Part of the joint seminar series with City University of Hong Kong and Mathematical Institute at University of Oxford.
+Learned Mirror Descent/Accelerating Plug-and-Play	Department Seminar	talk-ucla23	Level Set Meeting	2023-07-31	"Los Angeles, CA"		
+Data-Driven Convex Optimization via Mirror Descent	Mini-symposium Talk	talk-iciam23	ICIAM 2023	2023-08-25	"Tokyo, Japan"	https://iciam2023.org/registered_data?id=00184#01555	"Part of the mini symposium ""Recent advances in data-driven methods for inverse problems”."
+Data-Driven Geometry for Convex Optimization	Workshop Talk	talk-icms24	Big Data Inverse Problems Workshop	2024-05-23	"Edinburgh, UK"		
+Noise-Free Sampling Algorithms via Regularized Wasserstein Proximals	Mini-symposium Talk	talk-siamis24	SIAM Conference on Imaging Science 2024	2024-05-28	"Atlanta, GA"	https://meetings.siam.org/sess/dsp_talk.cfm?p=135963	Part of the mini symposium “SDE- and PDE-based Sampling Methods for Imaging Inverse Problems”.
